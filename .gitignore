@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+data/
+/docs/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+build/
+dist/
+*.egg-info/
+.DS_Store

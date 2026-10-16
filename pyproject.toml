@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "risk-investigator"
+version = "0.1.0"
+description = "Reproducible experiments for evidence-grounded payment risk investigations"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+risk-investigator = "risk_investigator.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["risk_investigator*"]
